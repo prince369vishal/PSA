@@ -127,6 +127,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initial state
     updateScrollState();
   }
+
+  initPortfolioFilters();
 });
 
 // Smooth scroll function
