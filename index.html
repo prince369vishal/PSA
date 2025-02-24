@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pankaj Sir Academy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="courses.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="jobs.css" />
+    <link rel="stylesheet" href="projects.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <!-- <img src="logo.svg" alt="Stibium" /> -->
+          <span>PSA</span>
+        </div>
+        <div class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#services">Courses</a>
+          <a href="#portfolio">Jobs</a>
+          <a href="#testimonials">Project</a>
+          <a href="#contact">Contact</a>
+          <button class="cta-button">Get Started</button>
+        </div>
+        <button class="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <span class="subtitle">REDEFINING DIGITAL LEARNING</span>
+          <h1>
+            Pankaj Sir Academy - Leading Institute in
+            <span class="highlight">India</span>
+          </h1>
+          <p class="hero-description">
+            Pankaj Sir Academy is a leading institution that offers a wide range
+            of courses in the field of digital marketing, web development, and
+            graphic design. With a team of experienced professionals, we provide
+            comprehensive training and support to help students achieve their
+            goals.
+          </p>
+          <div class="cta-group">
+            <button class="primary-button">
+              Book a Free Demo
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                />
+              </svg>
+            </button>
+            <button class="secondary-button">
+              Explore Courses
+              <svg width="20" height="20" viewBox="0 0 24 24">
+                <path
+                  d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-icon">★</span>
+              <h3 data-value="98%">1.5 lacs+</h3>
+              <p>Students Placed</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-icon">⚡</span>
+              <h3 data-value="250+">250+</h3>
+              <p>Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-icon">💎</span>
+              <h3 data-value="15+">20+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="courses">
+        <div class="container">
+          <h2 class="section-title">Our Tech Courses</h2>
+          <p class="section-subtitle">
+            Master the most in-demand technologies with our comprehensive
+            courses
+          </p>
+
+          <div class="courses-grid">
+            <!-- Java Full Stack Card -->
+            <div class="course-card">
+              <div class="course-header java">
+                <div class="tech-icons">
+                  <i class="fab fa-java"></i>
+                  <i class="fab fa-angular"></i>
+                  <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Java Full Stack</h3>
+              </div>
+              <div class="course-content">
+                <ul class="feature-list">
+                  <li>Core Java Programming</li>
+                  <li>Spring Framework</li>
+                  <li>Hibernate ORM</li>
+                  <li>Angular Frontend</li>
+                  <li>RESTful Web Services</li>
+                  <li>Microservices Architecture</li>
+                </ul>
+                <div class="course-footer">
+                  <button class="enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- MERN Stack Card -->
+            <div class="course-card">
+              <div class="course-header mern">
+                <div class="tech-icons">
+                  <i class="fab fa-node"></i>
+                  <i class="fab fa-react"></i>
+                  <i class="fas fa-database"></i>
+                </div>
+                <h3>Java Testing</h3>
+              </div>
+              <div class="course-content">
+                <ul class="feature-list">
+                  <li>Selenium WebDriver</li>
+                  <li>JUnit</li>
+                  <li>TestNG</li>
+                  <li>Mockito</li>
+                  <li>Jenkins</li>
+                  <li>CI/CD Pipeline</li>
+                </ul>
+                <div class="course-footer">
+                  <button class="enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- React Native Card -->
+            <div class="course-card">
+              <div class="course-header react-native">
+                <div class="tech-icons">
+                  <i class="fab fa-docker"></i>
+                  <i class="fab fa-android"></i>
+                  <i class="fab fa-amazon"></i>
+                </div>
+                <h3>DevOps</h3>
+              </div>
+              <div class="course-content">
+                <ul class="feature-list">
+                  <li>Docker</li>
+                  <li>Kubernetes</li>
+                  <li>Jenkins</li>
+                  <li>CI/CD Pipeline</li>
+                  <li>Microservices Architecture</li>
+                  <li>Access to Native APIs</li>
+                </ul>
+                <div class="course-footer">
+                  <button class="enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Add this new section after the courses section -->
+      <section id="jobs" class="jobs">
+        <div class="container">
+          <h2 class="section-title">Featured Job Opportunities</h2>
+          <p class="section-subtitle">
+            Exclusive positions from top tech companies looking for exceptional
+            talent
+          </p>
+
+          <div class="jobs-container">
+            <!-- Jobs Grid -->
+            <div class="jobs-grid">
+              <!-- Enterprise Architect Position -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-building-columns"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag featured">Featured</span>
+                    <span class="tag">Remote</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Enterprise Architect</h3>
+                  <p class="company-name">Global Tech Solutions</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>10+ years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹45-65 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Bangalore</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>Java</span>
+                    <span>Cloud Architecture</span>
+                    <span>Microservices</span>
+                    <span>System Design</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Senior DevOps Engineer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-cloud"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag urgent">Urgent</span>
+                    <span class="tag">Hybrid</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Senior DevOps Engineer</h3>
+                  <p class="company-name">CloudScale Technologies</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>5-8 years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹25-35 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Pune</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>AWS</span>
+                    <span>Kubernetes</span>
+                    <span>Docker</span>
+                    <span>Jenkins</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Lead QA Engineer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-code-branch"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag">On-site</span>
+                    <span class="tag">Leadership</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Lead QA Engineer</h3>
+                  <p class="company-name">Innovation Labs</p>
+                  <ul class="job-highlights">
+                    <li><i class="fas fa-briefcase"></i>7+ years experience</li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹30-40 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Hyderabad</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>Selenium</span>
+                    <span>Automation</span>
+                    <span>API Testing</span>
+                    <span>CI/CD</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Full Stack Developer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-laptop-code"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag featured">Featured</span>
+                    <span class="tag">Hybrid</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Full Stack Developer</h3>
+                  <p class="company-name">TechCorp Solutions</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>4-8 years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹20-35 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Mumbai</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                    <span>AWS</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Cloud Architect -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-cloud"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag urgent">Urgent</span>
+                    <span class="tag">Remote</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Cloud Architect</h3>
+                  <p class="company-name">CloudNine Systems</p>
+                  <ul class="job-highlights">
+                    <li><i class="fas fa-briefcase"></i>8+ years experience</li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹40-55 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Chennai</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>AWS</span>
+                    <span>Azure</span>
+                    <span>GCP</span>
+                    <span>Terraform</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Security Engineer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-shield-alt"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag">On-site</span>
+                    <span class="tag">Senior</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Security Engineer</h3>
+                  <p class="company-name">SecureNet Solutions</p>
+                  <ul class="job-highlights">
+                    <li><i class="fas fa-briefcase"></i>6+ years experience</li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹25-40 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Delhi</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>Cybersecurity</span>
+                    <span>CISSP</span>
+                    <span>Penetration Testing</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Data Scientist -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-brain"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag featured">Featured</span>
+                    <span class="tag">Hybrid</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Data Scientist</h3>
+                  <p class="company-name">DataMinds AI</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>3-7 years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹25-45 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Bangalore</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                    <span>Deep Learning</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Mobile Developer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag">Remote</span>
+                    <span class="tag urgent">Urgent</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">Mobile Developer</h3>
+                  <p class="company-name">AppCraft Technologies</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>4-6 years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹18-30 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Pune</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>React Native</span>
+                    <span>Flutter</span>
+                    <span>iOS</span>
+                    <span>Android</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- UI/UX Designer -->
+              <div class="job-card">
+                <div class="job-header">
+                  <div class="company-logo">
+                    <i class="fas fa-palette"></i>
+                  </div>
+                  <div class="job-tags">
+                    <span class="tag">Hybrid</span>
+                    <span class="tag featured">Featured</span>
+                  </div>
+                </div>
+                <div class="job-content">
+                  <h3 class="job-title">UI/UX Designer</h3>
+                  <p class="company-name">DesignHub Creative</p>
+                  <ul class="job-highlights">
+                    <li>
+                      <i class="fas fa-briefcase"></i>3-5 years experience
+                    </li>
+                    <li><i class="fas fa-money-bill-wave"></i>₹15-25 LPA</li>
+                    <li><i class="fas fa-location-dot"></i>Hyderabad</li>
+                  </ul>
+                  <div class="skills-required">
+                    <span>Figma</span>
+                    <span>Adobe XD</span>
+                    <span>UI Design</span>
+                    <span>Prototyping</span>
+                  </div>
+                </div>
+                <div class="job-footer">
+                  <button class="apply-btn">Apply Now</button>
+                  <button class="save-btn">
+                    <i class="far fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2 class="section-title">Project-Based Learning</h2>
+          <p class="section-subtitle">
+            Build real-world projects to master the skills
+          </p>
+
+          <div class="projects-grid">
+            <!-- E-commerce Platform -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-title">
+                  <h3>E-commerce Platform</h3>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    <span>8 weeks</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-description">
+                  Build a full-featured e-commerce platform with product
+                  management, shopping cart, and payment integration.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Redux</span>
+                </div>
+                <ul class="key-features">
+                  <li>
+                    <i class="fas fa-check"></i>User authentication &
+                    authorization
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Product catalog with search &
+                    filters
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Shopping cart functionality
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>Payment gateway integration
+                  </li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="difficulty">
+                  <span>Difficulty:</span>
+                  <div class="difficulty-level">
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot"></span>
+                  </div>
+                </div>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+
+            <!-- Social Media Dashboard -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="project-title">
+                  <h3>Analytics Dashboard</h3>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    <span>6 weeks</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-description">
+                  Create a responsive analytics dashboard with real-time data
+                  visualization and reporting features.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Vue.js</span>
+                  <span class="tech-tag">D3.js</span>
+                  <span class="tech-tag">Firebase</span>
+                  <span class="tech-tag">WebSocket</span>
+                </div>
+                <ul class="key-features">
+                  <li><i class="fas fa-check"></i>Real-time data updates</li>
+                  <li>
+                    <i class="fas fa-check"></i>Interactive charts & graphs
+                  </li>
+                  <li><i class="fas fa-check"></i>Custom report generation</li>
+                  <li><i class="fas fa-check"></i>Data export functionality</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="difficulty">
+                  <span>Difficulty:</span>
+                  <div class="difficulty-level">
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot"></span>
+                    <span class="difficulty-dot"></span>
+                  </div>
+                </div>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+
+            <!-- Task Management App -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-title">
+                  <h3>Task Manager Pro</h3>
+                  <div class="duration">
+                    <i class="far fa-clock"></i>
+                    <span>4 weeks</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <p class="project-description">
+                  Develop a task management application with team collaboration
+                  features and progress tracking.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">Socket.io</span>
+                </div>
+                <ul class="key-features">
+                  <li>
+                    <i class="fas fa-check"></i>Task creation & assignment
+                  </li>
+                  <li><i class="fas fa-check"></i>Team collaboration tools</li>
+                  <li><i class="fas fa-check"></i>Progress tracking</li>
+                  <li><i class="fas fa-check"></i>File sharing & comments</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="difficulty">
+                  <span>Difficulty:</span>
+                  <div class="difficulty-level">
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot active"></span>
+                    <span class="difficulty-dot"></span>
+                    <span class="difficulty-dot"></span>
+                  </div>
+                </div>
+                <button class="learn-more-btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="footer-grid">
+          <!-- Company Info -->
+          <div class="footer-section">
+            <div class="footer-logo">
+              <span>PSA</span>
+            </div>
+            <p class="footer-description">
+              Empowering the next generation of tech professionals with
+              cutting-edge education and practical skills.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Courses -->
+          <div class="footer-section">
+            <h4>Our Courses</h4>
+            <ul class="footer-links">
+              <li><a href="#java">Java Full Stack</a></li>
+              <li><a href="#testing">Software Testing</a></li>
+              <li><a href="#devops">DevOps</a></li>
+              <li><a href="#cloud">Cloud Computing</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="footer-section">
+            <h4>Contact Us</h4>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>123 Tech Park, Bangalore, India</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+91 123 456 7890</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>info@pankajsiracademy.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+          <div class="copyright">
+            © 2024 Pankaj Sir Academy. All rights reserved.
+          </div>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
